@@ -24,3 +24,4 @@ arr = [list(map(int,input())) for _ in range(n)]
 
 ans = bfs(0,0,n-1,m-1)
 print(ans)
+print(ans)
