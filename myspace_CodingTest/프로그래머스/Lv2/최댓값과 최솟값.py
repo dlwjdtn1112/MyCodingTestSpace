@@ -1,3 +1,4 @@
+# 내가 작성한 코드
 def solution1(s):
     s2 = ""
     s1 = s
