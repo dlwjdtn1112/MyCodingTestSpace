@@ -2,7 +2,7 @@
 from itertools import permutations
 
 
-def solution(number, k):
+def solution1(number, k):
     s1 = list(number)
     arr = [i for i in range(len(s1))]
 
