@@ -22,7 +22,7 @@ def solution1(weight): # 내가 작성한 코드(시간초과)
 from collections import Counter
 
 
-def solution2(weight):
+def solution3(weight):
     answer = 0
     counter = Counter(weight)
     weights = sorted(counter.keys())  # 정렬된 고유 weight 리스트
