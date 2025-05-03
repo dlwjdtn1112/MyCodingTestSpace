@@ -1,6 +1,6 @@
 
 # 내가 작성한 코드
-def solution1(elements):
+def solution2(elements):
     l1 = elements + elements
     arr = []
     for i in range(1, len(elements) + 1):
@@ -9,7 +9,7 @@ def solution1(elements):
     return len(set(arr))
 
 #chat gpt 4o
-def solution2(elements):
+def solution3(elements):
     n = len(elements)
     elements = elements * 2  # 원형 처리
     prefix = [0] * (2 * n + 1)
