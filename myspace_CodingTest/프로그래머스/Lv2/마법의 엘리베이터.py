@@ -1,6 +1,6 @@
 
 # 내가 작성한 코드
-def solution1(storey):
+def solution2(storey):
     stone = 0
     while storey:
         num1 = storey % 10
@@ -25,7 +25,7 @@ def solution1(storey):
 
 #chat gpt4o
 
-def solution2(storey):
+def solution3(storey):
     result = 0
 
     while storey > 0:
