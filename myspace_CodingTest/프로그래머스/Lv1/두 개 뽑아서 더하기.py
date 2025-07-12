@@ -1,4 +1,4 @@
-def solution(numbers):
+def solution1(numbers):
     answer = []
     for i in range(len(numbers) - 1):
         for j in range(i + 1, len(numbers)):
