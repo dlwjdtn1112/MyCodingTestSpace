@@ -23,3 +23,5 @@ for i in l1:
     i = [str(j) for j in i]
     print("#"+str(v1)," ".join(i))
     v1 += 1
+
+print(v1)
