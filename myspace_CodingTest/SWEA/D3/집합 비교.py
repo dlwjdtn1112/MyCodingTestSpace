@@ -1,8 +1,8 @@
 
 
+
+# 내가 작성한 코드
 result = []
-
-
 n = int(input())
 
 for _ in range(n):
@@ -38,4 +38,19 @@ for _ in range(n):
 for lst in result:
     print(lst)
 
+# chat gpt4o
+T = int(input())
+for _ in range(T):
+    len_a, len_b = map(int, input().split())
+    A = set(map(int, input().split()))
+    B = set(map(int, input().split()))
+
+    if A == B:
+        print("=")
+    elif A < B:
+        print("<")
+    elif A > B:
+        print(">")
+    else:
+        print("?")
 
