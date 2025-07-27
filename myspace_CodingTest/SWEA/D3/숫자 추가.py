@@ -1,4 +1,3 @@
-
 result = []
 
 n = int(input())
