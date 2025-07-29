@@ -1,4 +1,4 @@
-result = []
+result1 = []
 
 n = int(input())
 
@@ -10,13 +10,13 @@ for _ in range(n):
     a,b = input().split()
 
     if abs(l3[a]  - l3[b]) == 1 or (a == 'red' and b == 'purple') or (b == 'red' and a == 'purple'):
-        result.append('A')
+        result1.append('A')
     elif abs(l3[a]  - l3[b]) == 3:
-        result.append('C')
+        result1.append('C')
     elif a == b:
-        result.append('E')
+        result1.append('E')
     else:
-        result.append('X')
+        result1.append('X')
 
-for i in range(len(result)):
-    print(result[i])
+for i in range(len(result1)):
+    print(result1[i])
