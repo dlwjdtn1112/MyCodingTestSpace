@@ -1,7 +1,7 @@
 from itertools import permutations
 
 while True:
-    result = []
+
     l1 = list(map(int,input().split()))
     if l1 == [0]:
         break
