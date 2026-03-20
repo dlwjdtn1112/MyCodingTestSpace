@@ -1,8 +1,8 @@
 
 result = []
-n = int(input())
+n1 = int(input())
 
-for _ in range(n):
+for _ in range(n1):
     arr = []
     a = int(input())
     dp = [[0] * (a + 1) for _ in range(a+1)]
